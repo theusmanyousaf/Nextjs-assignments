@@ -8,9 +8,9 @@ const DynamicComponent = dynamic(()=> import("./(components)/Tooltip/Tooltip"), 
 export default function Home() {
   return (
     <main>
-      <h1>Main Page of Application</h1>
+      <div className="flex justify-center items-center mt-4"><h1 className="font-bold text-2xl border-4 border-solid text-gray-700 border-blue-500 rounded-md p-2 hover:bg-gray-700 hover:border-sky-500 hover:text-white hover:border-solid">Form Validation Using YUP</h1></div>
       <Form/>
-      <DynamicComponent/>
+      <DynamicComponent/> {/* This is an experimental/accidental component which adds Tooltip UI */}
     </main>
   )
 }
