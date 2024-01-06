@@ -20,15 +20,3 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-start-rgb));
 }
-
-.header:before {
-  content: 'Hello World';
-}
-
-.header:hover:before {
-  content: 'My Name is Usman Yousaf';
-  background-color: black;
-  padding: 10px;
-  border: solid 4px black;
-  border-radius: 10px;
-}
